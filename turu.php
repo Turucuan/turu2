@@ -53,7 +53,7 @@ $id = trim(fgets(STDIN));
 $getno = getno($id);
 //echo "$getno";
 
-$data = file_get_contents("token1.txt");
+$data = file_get_contents(token1.txt);
 $ex = explode("\n", str_replace("\r", "", $data));
 $count = count($ex);
 for($i=0;$i<$count;$i++) {
